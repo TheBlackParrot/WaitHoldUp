@@ -10,7 +10,7 @@ internal class AudioTimeSyncControllerPatch
     
     [HarmonyPatch(typeof(AudioTimeSyncController), "StartSong")]
     // ReSharper disable once InconsistentNaming
-    internal static void Postfix(AudioTimeSyncController __instance)
+    internal static void Postfix()
     {
         if (_pauseController == null)
         {
