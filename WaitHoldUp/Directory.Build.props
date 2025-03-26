@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This file contains project properties used by the build. -->
+<Project>
+
+  <PropertyGroup Condition="$(Configuration) == 'Release-1.29.1' Or $(Configuration) == 'Debug-1.29.1'">
+    <GameVersion>1.29.1</GameVersion>
+
+    <BSIPAVersion>4.2.2</BSIPAVersion>
+    <SiraUtilVersion>3.1.2</SiraUtilVersion>
+  </PropertyGroup>
+
+  <!-- Plugin Metadata -->
+  <PropertyGroup>
+    <PluginId>WaitHoldUp</PluginId>
+    <PluginName>WaitHoldUp</PluginName>
+    <Authors>TheBlackParrot</Authors>
+    <Version>0.0.0+$(GameVersion)</Version>
+    <Description>Brings up the pause menu when loading into a map</Description>
+    <!--<PluginIcon></PluginIcon>-->
+    <ProjectSource>https://github.com/TheBlackParrot/WaitHoldUp</ProjectSource>
+    <ProjectHome>https://github.com/TheBlackParrot/WaitHoldUp</ProjectHome>
+    <DonateUrl>https://ko-fi.com/septilateral</DonateUrl>
+  </PropertyGroup>
+
+  <!-- Plugin Dependencies -->
+  <ItemGroup>
+    <DependsOn Include="BSIPA" Version="^$(BSIPAVersion)"/>
+    <DependsOn Include="SiraUtil" Version="^$(SiraUtilVersion)"/>
+  </ItemGroup>
+  
+  <PropertyGroup>
+    <BSMTProjectType>BSIPA</BSMTProjectType>
+    <GenerateManifest>true</GenerateManifest>
+    <DisableZipRelease>false</DisableZipRelease>
+  </PropertyGroup>
+  
+</Project>

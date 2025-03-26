@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitHoldUp", "WaitHoldUp\WaitHoldUp.csproj", "{5F66E20D-F2A0-43D5-9DBC-BF85ADE3F21F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release-1.29.1|Any CPU = Release-1.29.1|Any CPU
+		Debug-1.29.1|Any CPU = Debug-1.29.1|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F66E20D-F2A0-43D5-9DBC-BF85ADE3F21F}.Release-1.29.1|Any CPU.ActiveCfg = Release-1.29.1|Any CPU
+		{5F66E20D-F2A0-43D5-9DBC-BF85ADE3F21F}.Release-1.29.1|Any CPU.Build.0 = Release-1.29.1|Any CPU
+		{5F66E20D-F2A0-43D5-9DBC-BF85ADE3F21F}.Debug-1.29.1|Any CPU.ActiveCfg = Debug-1.29.1|Any CPU
+		{5F66E20D-F2A0-43D5-9DBC-BF85ADE3F21F}.Debug-1.29.1|Any CPU.Build.0 = Debug-1.29.1|Any CPU
+	EndGlobalSection
+EndGlobal
