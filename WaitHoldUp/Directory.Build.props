@@ -14,7 +14,7 @@
     <PluginId>WaitHoldUp</PluginId>
     <PluginName>WaitHoldUp</PluginName>
     <Authors>TheBlackParrot</Authors>
-    <Version>0.0.0+$(GameVersion)</Version>
+    <Version>0.0.1+$(GameVersion)</Version>
     <Description>Brings up the pause menu when loading into a map</Description>
     <!--<PluginIcon></PluginIcon>-->
     <ProjectSource>https://github.com/TheBlackParrot/WaitHoldUp</ProjectSource>

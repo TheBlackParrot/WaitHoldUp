@@ -12,7 +12,7 @@ namespace WaitHoldUp;
 internal class Plugin
 {
     private static Harmony _harmony = null!;
-    private static IPALogger Log { get; set; } = null!;
+    internal static IPALogger Log { get; set; } = null!;
 
     [Init]
     public Plugin(IPALogger ipaLogger, Zenjector zenjector)
